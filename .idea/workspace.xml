@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dafb5239-3aff-4f1e-af8b-17dea15bf83f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Tanyiqu.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +24,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="ProjectId" id="1bL75e8JOXxEojpBDk163Ie6JR4" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,8 +40,10 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="ServiceViewManager">
@@ -40,7 +51,17 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -58,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588399337572</updated>
       <workItem from="1588399340352" duration="100000" />
-      <workItem from="1588399632986" duration="404000" />
+      <workItem from="1588399632986" duration="1936000" />
     </task>
     <servers />
   </component>
@@ -66,9 +87,61 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588399378771">
+    <state x="349" y="149" width="1092" height="685" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588401038746">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588399378771" />
+    <state x="349" y="149" width="1092" height="685" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588401038746" />
+    <state x="675" y="235" key="FileChooserDialogImpl" timestamp="1588401006975">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="675" y="235" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588401006975" />
+    <state width="1293" height="241" key="GridCell.Tab.0.bottom" timestamp="1588401045156">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="241" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588401045156" />
+    <state width="1293" height="241" key="GridCell.Tab.0.center" timestamp="1588401045155">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="241" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588401045155" />
+    <state width="1293" height="241" key="GridCell.Tab.0.left" timestamp="1588401045155">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="241" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588401045155" />
+    <state width="1293" height="241" key="GridCell.Tab.0.right" timestamp="1588401045156">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="241" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588401045156" />
+    <state width="1293" height="241" key="GridCell.Tab.1.bottom" timestamp="1588401045156">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="241" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588401045156" />
+    <state width="1293" height="241" key="GridCell.Tab.1.center" timestamp="1588401045156">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="241" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588401045156" />
+    <state width="1293" height="241" key="GridCell.Tab.1.left" timestamp="1588401045156">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="241" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588401045156" />
+    <state width="1293" height="241" key="GridCell.Tab.1.right" timestamp="1588401045156">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="241" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588401045156" />
+    <state width="1293" height="241" key="GridCell.Tab.2.bottom" timestamp="1588401045156">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="241" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588401045156" />
+    <state width="1293" height="241" key="GridCell.Tab.2.center" timestamp="1588401045156">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="241" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588401045156" />
+    <state width="1293" height="241" key="GridCell.Tab.2.left" timestamp="1588401045156">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="241" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588401045156" />
+    <state width="1293" height="241" key="GridCell.Tab.2.right" timestamp="1588401045156">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="241" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588401045156" />
   </component>
 </project>
