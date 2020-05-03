@@ -62,30 +62,36 @@ td > b{
 }
 
 .aboutme{
-    width: 30%;
-    /*height: 500px;*/
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+}
+
+.aboutme > div{
     border-radius: 10px;
     background: #e8f2f78f;
-    /*margin: 100px auto 0;*/
-    margin-top: 100px;
-    margin-left: 10%;
     padding: 25px;
 }
 
-.aboutme > p{
+.l{
+    margin-left: 8%;
+    margin-right: 3%;
+}
+
+.r{
+    margin-left: 3%;
+    margin-right: 8%;
+}
+
+.aboutme > * > p{
     margin: 10px 0;
 }
 
 .myskills{
     width: 60%;
-    /*height: 500px;*/
-    margin: 100px auto 0;
+    margin: 150px auto 0;
     border-radius: 10px;
     background: #e8f2f78f;
-    /*margin: 100px auto 0;*/
-    /*margin-top: 100px;*/
-    /*margin-left: 10%;*/
-
     padding: 25px;
 }
 
