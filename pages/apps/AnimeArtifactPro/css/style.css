@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.img-line{
+    width: 100%;
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+.img-line > a{
+    width: 24%;
+    margin: 0.5%;
+}
+
+.img-line > * > img{
+    width: 100%;
+    border-radius: 2%;
+}
+
+img:hover{
+    filter: opacity(0.75);
+}
