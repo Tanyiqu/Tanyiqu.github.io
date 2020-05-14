@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewpoint" content="width=device-width" , initial-scale=1.0 />
+    <title>数据可视化大作业-081417137</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/flexible.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <a href="https://github.com/Tanyiqu/2019D11TmallDataVisualization" target="_blank">
+            <h1>2019年天猫双11交易数据-081417137</h1>
+        </a>
+
+        <div class="showTime">
+            <script src="js/getTime.js"></script>
+        </div>
+    </header>
+
+    <!-- 主体 -->
+    <section class="mainbox">
+        <!-- 左 -->
+        <div class="column">
+            <div class="panel bar">
+                <h2>双11历年成交额（亿元）</h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+
+
+            <div class="panel line">
+                <h2>2018-2019天猫双11交易峰值变化</h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+
+            <div class="panel pie">
+                <h2>全网销售额各平台占比</h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+        </div>
+
+        <!-- 中 -->
+        <div class="column">
+            <!-- 数字部分 -->
+            <div class="no">
+                <div class="no-hd">
+                    <ul>
+                        <li>12.92</li>
+                        <li>2684</li>
+                    </ul>
+                    <div class="panel-footer"></div>
+                </div>
+                <div class="no-bd">
+                    <ul>
+                        <li>2019年双11总订单数（亿）</li>
+                        <li>2019年双11总成交额（亿）</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- 地图部分 -->
+            <div class="map">
+                <div class="map1"></div>
+                <div class="map2"></div>
+                <div class="map3"></div>
+                <div id="mapp" class="chart"></div>
+            </div>
+        </div>
+
+        <!-- 右 -->
+        <div class="column">
+            <div class="panel bar2">
+                <h2>各省当日人均成交 Top10</h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+
+            <div class="panel scatter">
+                <h2>各省当日成交 Top20</h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+
+            <div class="panel pie2">
+                <h2>天猫8大品牌销售排行</h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+        </div>
+    </section>
+    <script src="js/echarts.min.js"></script>
+    <script src="js/charts/chart1.js"></script>
+    <script src="js/charts/chart2.js"></script>
+    <script src="js/charts/chart3.js"></script>
+    <script src="js/charts/chart4.js"></script>
+    <script src="js/charts/chart5.js"></script>
+    <script src="js/charts/chart6.js"></script>
+
+    <!-- 添加地图 -->
+    <script src="js/china.js"></script>
+    <script src="js/charts/map.js"></script>
+</body>
+
+</html>

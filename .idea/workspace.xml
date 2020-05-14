@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="86964dec-49cb-4034-870a-9fadbb0f032e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/apps/AnimeArtifactPro/res/bgs/01.png" beforeDir="false" afterPath="$PROJECT_DIR$/pages/apps/AnimeArtifactPro/res/bgs/01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/apps/AnimeArtifactPro/res/bgs/02.png" beforeDir="false" afterPath="$PROJECT_DIR$/pages/apps/AnimeArtifactPro/res/bgs/02.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/apps/AnimeArtifactPro/wallpapers.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/apps/AnimeArtifactPro/wallpapers.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +34,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages/apps/AnimeArtifactPro/res/bgs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -72,7 +69,9 @@
       <workItem from="1588493537353" duration="6383000" />
       <workItem from="1588673764390" duration="56000" />
       <workItem from="1588940891835" duration="2684000" />
-      <workItem from="1588991841061" duration="1104000" />
+      <workItem from="1588991841061" duration="1187000" />
+      <workItem from="1589004783715" duration="101000" />
+      <workItem from="1589080570768" duration="1217000" />
     </task>
     <servers />
   </component>
