@@ -14,11 +14,11 @@
         },
         // 修改图表的大小
         grid: {
-            left: "0%",
-            top: "4%",
-            right: "1%",
-            bottom: "4%",
-            containLabel: true
+            left: "12%",
+            top: "20%",
+            right: "2%",
+            bottom: "7%",
+            // containLabel: true
         },
         xAxis: [
             {

@@ -8,7 +8,7 @@
   src: url(../font/DS-DIGIT.TTF);
 }
 body {
-  background-color: #1e1e1e;
+  background: #1e1e1e;
   line-height: 1.15;
 }
 header {
@@ -54,63 +54,16 @@ li {
 .mainbox .panel {
   position: relative;
   height: 3.875rem;
-  border: 1px solid rgba(25, 186, 139, 0.17);
   background: url(../images/line.png) rgba(255, 255, 255, 0.04);
+  background-size: 100% 100%;
   padding: 0 0.1875rem 0.5rem;
   margin-bottom: 0.1875rem;
 }
-.mainbox .panel::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 10px;
-  width: 10px;
-  border-top: 2px solid #02a6b5;
-  border-left: 2px solid #02a6b5;
-  content: "";
-}
-.mainbox .panel::after {
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 10px;
-  width: 10px;
-  border-top: 2px solid #02a6b5;
-  border-right: 2px solid #02a6b5;
-  content: "";
-}
-.mainbox .panel .panel-footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: pink;
-}
-.mainbox .panel .panel-footer::before {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 10px;
-  width: 10px;
-  border-left: 2px solid #02a6b5;
-  border-bottom: 2px solid #02a6b5;
-  content: "";
-}
-.mainbox .panel .panel-footer::after {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  height: 10px;
-  width: 10px;
-  border-bottom: 2px solid #02a6b5;
-  border-right: 2px solid #02a6b5;
-  content: "";
-}
 .mainbox .panel h2 {
-  height: 0.6rem;
+  height: 0.3rem;
   color: #fff;
-  line-height: 0.6rem;
-  text-align: center;
+  line-height: 0.3rem;
+  text-align: left;
   font-size: 0.25rem;
   font-weight: 400;
 }

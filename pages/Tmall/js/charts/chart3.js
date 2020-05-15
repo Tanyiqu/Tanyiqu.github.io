@@ -10,7 +10,8 @@
         },
         legend: {
             orient: 'vertical',
-            left: 10,
+            left: '8%',
+            top: '27%',
             textStyle: {
                 color: "rgba(255,255,255,.5)",
                 fontSize: "12"
@@ -21,6 +22,7 @@
                 name: '销售占比',
                 type: 'pie',
                 radius: ['50%', '70%'],
+                center: ['55%', '60%'],
                 avoidLabelOverlap: false,
                 label: {
                     show: false,

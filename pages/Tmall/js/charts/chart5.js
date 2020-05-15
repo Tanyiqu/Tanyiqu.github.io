@@ -13,10 +13,10 @@
             formatter: "{b} <br/>{c} 亿元"
         },
         grid: {
-            left: "0%",
-            top: "4%",
-            right: "1%",
-            bottom: "4%",
+            left: "6%",
+            top: "20%",
+            right: "0%",
+            bottom: "0%",
             containLabel: true
         },
         xAxis: [

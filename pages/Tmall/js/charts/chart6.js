@@ -19,7 +19,9 @@
             formatter: "{a} <br/>{b} : {c} 亿元 ({d}%)"
         },
         legend: {
-            bottom: "0%",
+            left: "7%",
+            top: "90%",
+            // bottom: "0%",
             itemWidth: 10,
             itemHeight: 10,
             textStyle: {
@@ -32,7 +34,7 @@
                 name: "品牌销量排行",
                 type: "pie",
                 radius: ["10%", "70%"],
-                center: ["50%", "50%"],
+                center: ['50%', '55%'],
                 roseType: "radius",
                 label: {
                     fontSize: 10
@@ -45,8 +47,8 @@
                     { value: 74, name: "美的" },
                     { value: 61, name: "小米" },
                     { value: 42, name: "联想" },
-                    { value: 40, name: "格力电器" },
-                    { value: 18.3, name: "安踏集团" },
+                    { value: 40, name: "格力" },
+                    { value: 18.3, name: "安踏" },
                     { value: 15, name: "南极人" },
                     { value: 13.8, name: "森马" },
                     { value: 12.46, name: "绫致时装" }

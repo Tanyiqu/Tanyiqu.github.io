@@ -13,10 +13,10 @@
         },
         color: "#8b78f6",
         grid: {
-            top: "5%",
-            left: "12%",
+            left: "14%",
+            top: "15%",
             right: "0%",
-            bottom: "5%"
+            bottom: "0%"
         },
         xAxis: {
             show: false
